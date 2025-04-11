@@ -1,0 +1,37 @@
+body{
+  background: url("././images/43289.jpg");
+  height: 100vh; /*화면의 view height  */
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.main-container{
+  display: flex;
+  flex-direction: column; /* flex의 정렬을 기둥으로 바꾼다 */
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+  height: 100vh; /* view 100% */
+  opacity: 0.7;
+}
+.weather-box{
+ border: white 1px;
+ padding: 50px;
+ border-radius: 20px;
+ background-color: azure;
+ margin: 23px;
+}
+
+.buttonCurrent {
+  transition-duration: 0.4s;
+  color: green;
+}
+.buttonCurrent:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.buttonCity {
+  transition-duration: 0.4s;
+}
+
+.buttonCity:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
